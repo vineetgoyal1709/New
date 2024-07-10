@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .container{
+        height: 90vh;
+        display: flex;
+        background-color: aquamarine;
+        border: 2px solid black;
+
+    }
+    .box{
+        border: 2px solid black;
+        height: 400px; width: 400px;
+        margin: 20px;
+    }
+    p{
+        margin: 40px;
+        font-size: 50px;
+        border: 2px solid black;
+    }
+    img{
+        margin: 20px;
+
+    }
+    @media(max-width:950px){
+       .container{
+flex-direction: column;
+       }
+    }
+    
+</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <p>
+                para 1
+            </p>
+            <p>
+             para 2
+            </p>
+        </div>
+        <div class="imag">
+            <img src="image1.jpg.jpg" alt="" height="350px" width="350px">
+        </div>
+    </div>
+</body>
+
+</html>

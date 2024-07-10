@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .ball{
+            height: 70px;
+            width: 70px;
+            border: 2px solid black;
+            border-radius: 100%;
+            background: linear-gradient(rgb(255, 106, 0),rgb(61, 43, 226));
+            position: relative;
+            left: 50%;
+            top: 10px;
+            animation-name: ball;
+            animation-duration: 2s;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            transition: all 2s linear;
+
+
+        }
+        @keyframes ball {
+            from{
+                top: 0px;
+                left: 50%;
+            }
+            to{
+                top: 575px;
+                left: 50%;
+            }
+
+        }
+    </style>
+</head>
+<body>
+    <div class="ball"></div>
+</body>
+</html>

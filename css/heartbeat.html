@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin-top: 50px;
+            
+        }
+        img{
+            animation: beat 0.5s linear infinite alternate;
+            
+        }
+        @keyframes beat {
+            from{
+                transform: translateZ(0px);
+            }
+            to{
+                transform: perspective(200px) translateZ(50px);
+            }
+        }
+    </style>
+</head>
+<body>
+   <center><div class="container">
+    <img src="heart.jpg" alt="" height="200px" width="200px">
+   </div> 
+</center>
+</body>
+</html>
