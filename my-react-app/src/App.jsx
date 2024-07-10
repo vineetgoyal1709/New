@@ -75,7 +75,7 @@ const App = () => {
     })
   return (
     <div>
-      <p>{time}</p>
+      <p>Time: {time}</p>
     </div>
   )
 }
